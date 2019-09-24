@@ -1917,6 +1917,12 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
         GenerateBitcoins(GetBoolArg("-gen", false), pwalletMain, GetArg("-genproclimit", 1));
 #endif
 
+    // ********************************************************* Step 11.5: Check for Wallet Update
+
+#ifdef ENABLE_WALLET
+    // Check for wallet update
+
+#endif
     // ********************************************************* Step 12: finished
 
     SetRPCWarmupFinished();

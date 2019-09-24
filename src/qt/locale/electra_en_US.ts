@@ -4254,6 +4254,10 @@ for example: alertnotify=echo %%s | mail -s "ELECTRA Alert" admin@foo.com
         <translation>Cannot write default address</translation>
     </message>
     <message>
+	<source>Checking for update</source>
+	<translation>Checking for update</translation>
+    </message>
+    <message>
         <source>Collateral not valid.</source>
         <translation>Collateral not valid.</translation>
     </message>
