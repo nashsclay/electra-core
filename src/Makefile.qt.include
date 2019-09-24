@@ -47,6 +47,8 @@ QT_FORMS_UI = \
   qt/forms/coincontroldialog.ui \
   qt/forms/blockexplorer.ui \
   qt/forms/obfuscationconfig.ui \
+  qt/forms/Downloader.ui \
+  qt/forms/Window.ui \
   qt/forms/editaddressdialog.ui \
   qt/forms/helpmessagedialog.ui \
   qt/forms/intro.ui \
@@ -155,6 +157,9 @@ BITCOIN_QT_H = \
   qt/coincontroldialog.h \
   qt/coincontroltreewidget.h \
   qt/csvmodelwriter.h \
+  qt/Downloader.h \
+  qt/QSimpleUpdater.h \
+  qt/Updater.h \
   qt/obfuscationconfig.h \
   qt/editaddressdialog.h \
   qt/guiconstants.h \
@@ -258,6 +263,7 @@ RES_ICONS = \
   qt/res/icons/tx_input.png \
   qt/res/icons/tx_output.png \
   qt/res/icons/tx_mined.png \
+  qt/res/icons/update.png \
   qt/res/icons/unit_electra.png \
   qt/res/icons/unit_melectra.png \
   qt/res/icons/unit_uelectra.png \
@@ -309,6 +315,11 @@ BITCOIN_QT_WALLET_CPP = \
   qt/coincontroldialog.cpp \
   qt/coincontroltreewidget.cpp \
   qt/obfuscationconfig.cpp \
+  qt/Downloader.cpp \
+  qt/QSimpleUpdater.cpp \
+  qt/Updater.cpp \
+  qt/Window.cpp \
+  qt/main.cpp \
   qt/editaddressdialog.cpp \
   qt/masternodelist.cpp \
   qt/multisenddialog.cpp \
