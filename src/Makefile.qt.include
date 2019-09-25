@@ -89,6 +89,7 @@ QT_MOC_CPP = \
   qt/moc_intro.cpp \
   qt/moc_macdockiconhandler.cpp \
   qt/moc_macnotificationhandler.cpp \
+  qt/moc_main.cpp \
   qt/moc_masternodelist.cpp \
   qt/moc_multisenddialog.cpp \
   qt/moc_multisigdialog.cpp\
@@ -120,7 +121,10 @@ QT_MOC_CPP = \
   qt/moc_walletframe.cpp \
   qt/moc_walletmodel.cpp \
   qt/moc_walletview.cpp \
-  qt/moc_zecacontroldialog.cpp
+  qt/moc_zecacontroldialog.cpp \
+  qt/moc_Updater.cpp \
+  qt/moc_Downloader.cpp \
+  qt/moc_QSimpleUpdater.cpp
 
 BITCOIN_MM = \
   qt/macdockiconhandler.mm \
