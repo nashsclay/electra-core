@@ -6,8 +6,8 @@
  * as published by Sam Hocevar. See the COPYING file for more details.
  */
 
-#ifndef _WINDOW_H
-#define _WINDOW_H
+#ifndef WINDOW_H
+#define WINDOW_H
 
 #include <QMainWindow>
 #include <QApplication>

@@ -89,7 +89,6 @@ QT_MOC_CPP = \
   qt/moc_intro.cpp \
   qt/moc_macdockiconhandler.cpp \
   qt/moc_macnotificationhandler.cpp \
-  qt/moc_main.cpp \
   qt/moc_masternodelist.cpp \
   qt/moc_multisenddialog.cpp \
   qt/moc_multisigdialog.cpp\
