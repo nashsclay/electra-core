@@ -1921,6 +1921,7 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
 
 #ifdef ENABLE_WALLET
     // Check for wallet update
+    uiInterface.InitMessage(_("Checking for update"));
 
 #endif
     // ********************************************************* Step 12: finished
