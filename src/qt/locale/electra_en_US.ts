@@ -5149,5 +5149,9 @@ for example: alertnotify=echo %%s | mail -s "ELECTRA Alert" admin@foo.com
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat corrupt, salvage failed</translation>
     </message>
+    <message>
+        <source>Check for Update</source>
+        <translation>Check for Update</translation>
+    </message>
 </context>
 </TS>

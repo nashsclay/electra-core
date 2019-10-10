@@ -732,7 +732,7 @@ https://www.transifex.com/electra-project/electra-project-translations</string>
        </property>
        <property name="sizeHint" stdset="0">
         <size>
-         <width>40</width>
+         <width>5</width>
          <height>48</height>
         </size>
        </property>
@@ -760,6 +760,19 @@ https://www.transifex.com/electra-project/electra-project-translations</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="checkForUpdateButton">
+       <property name="toolTip">
+        <string>Allow QT wallet to check for update.</string>
+       </property>
+       <property name="text">
+        <string>&amp;Check for Update</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
        </property>
       </widget>
      </item>

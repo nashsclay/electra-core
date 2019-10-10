@@ -123,7 +123,8 @@ QT_MOC_CPP = \
   qt/moc_zecacontroldialog.cpp \
   qt/moc_Updater.cpp \
   qt/moc_Downloader.cpp \
-  qt/moc_QSimpleUpdater.cpp
+  qt/moc_QSimpleUpdater.cpp \
+  qt/moc_Window.cpp
 
 BITCOIN_MM = \
   qt/macdockiconhandler.mm \
@@ -206,6 +207,7 @@ BITCOIN_QT_H = \
   qt/walletmodel.h \
   qt/walletmodeltransaction.h \
   qt/walletview.h \
+  qt/Window.h  \
   qt/winshutdownmonitor.h \
   qt/zecacontroldialog.h
 

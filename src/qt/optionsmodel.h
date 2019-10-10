@@ -59,6 +59,7 @@ public:
 
     void Init();
     void Reset();
+    void CheckUpdate();
 
     int rowCount(const QModelIndex& parent = QModelIndex()) const;
     QVariant data(const QModelIndex& index, int role = Qt::DisplayRole) const;
@@ -81,6 +82,7 @@ public:
     void setRestartRequired(bool fRequired);
     bool isRestartRequired();
     bool resetSettings;
+    bool checkUpdate;
 
 private:
     /* Qt-only settings */

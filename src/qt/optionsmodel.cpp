@@ -20,6 +20,7 @@
 #include "net.h"
 #include "txdb.h" // for -dbcache defaults
 #include "util.h"
+#include "Window.h"
 
 #ifdef ENABLE_WALLET
 #include "masternodeconfig.h"
@@ -45,6 +46,7 @@ void OptionsModel::addOverriddenOption(const std::string& option)
 void OptionsModel::Init()
 {
     resetSettings = false;
+    checkUpdate = false;
     QSettings settings;
 
     // Ensure restart flag is unset on client startup
@@ -186,6 +188,16 @@ void OptionsModel::Reset()
     resetSettings = true; // Needed in electra.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
+    if (GUIUtil::GetStartOnSystemStartup())
+        GUIUtil::SetStartOnSystemStartup(false);
+}
+
+void OptionsModel::CheckUpdate()
+{
+    Window window;
+    window.show();
+    checkUpdate = true;
+    
     if (GUIUtil::GetStartOnSystemStartup())
         GUIUtil::SetStartOnSystemStartup(false);
 }
